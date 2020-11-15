@@ -1,0 +1,107 @@
+@import "./props.scss";
+$colorGreen: #19923a;
+.font{
+    font-family: 'Varela Round', sans-serif, arial;
+}
+
+/*Button*/
+.button{
+    background: #1749ff;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 15px;
+    @include anim($duration: 0.15s);
+    &:hover{
+        opacity: 0.9;
+        /*background: #3e67ff;
+        .ico{
+            background: #1547fd;
+        }*/
+    }
+    .ico{
+        background: #073dff;
+        padding: 10px;
+        border-radius: 15px 0px 0px 15px;
+        width: 20px;
+        font-size: 16px;
+    }
+    .label{
+        padding: 10px 20px;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*OK*/
+    &.button-ok{
+        background: $colorGreen;
+        .ico{
+            background: #0c8c31;
+        }
+    }
+
+    /*ERROR*/
+    &.button-error{
+        background: #de3d3d;
+        .ico{
+            background: #ce2d2d;
+        }
+    }
+
+}
+
+/*Switch*/
+.switch{
+    width: 50px;
+    height: 28px;
+    background: #ddd;
+    border: 0px;
+    border-radius: 50px;
+    @include anim($duration: 0.25s);
+    &.switch-android{
+        height: 14px;
+        width: 45px;
+        &:before{
+            width: 21px;
+            height: 21px;
+        }
+        &.switch-on{
+            &:before{
+                width: 21px;
+                height: 21px;
+            }
+        }
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        background: #fff;
+        border: 1px #ddd solid;
+        border-radius: 50px;
+        top: 50%;
+        transform: translate(0px, -50%);
+        left: 0px;
+        @include anim($duration: 0.15s);
+    }
+    &.switch-on{
+        box-shadow: inset 0px 0px 0px 20px $colorGreen;
+        &:before{
+            content: '';
+            position: absolute;
+            width: 26px;
+            height: 26px;
+            background: #fff;
+            border: 1px $colorGreen solid;
+            border-radius: 50px;
+            top: 50%;
+            transform: translate(22px, -50%);            
+            @include anim($duration: 0.15s);
+        }
+    }
+}

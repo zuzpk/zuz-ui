@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 h1,h2,h3,h4,h5,h6,p{
     padding: 0px;
     margin: 0px;
 }
-=======
->>>>>>> 4abb6e30027a442b9f367a1e2c5f386461f653fd
 .rel{position: relative;}
 .abs{position:absolute;}
 .abc{
@@ -12,7 +9,6 @@ h1,h2,h3,h4,h5,h6,p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-<<<<<<< HEAD
 .abcb:before{
     top: 50%;
     left: 50%;
@@ -37,14 +33,3 @@ input, button, textarea{outline: none;}
 
 .cfff{color: #fff;}
 
-=======
-.flex{display: flex;}
-.aic{align-items: center;}
-button{
-    outline: none;
-    cursor: pointer;
-}
-@mixin anim($duration: 0.2s){
-    transition: all $duration linear 0s;
-}
->>>>>>> 4abb6e30027a442b9f367a1e2c5f386461f653fd

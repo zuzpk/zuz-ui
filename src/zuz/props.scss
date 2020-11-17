@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0px;
+    margin: 0px;
+}
 .rel{position: relative;}
 .abs{position:absolute;}
 .abc{
@@ -5,12 +9,27 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.flex{display: flex;}
-.aic{align-items: center;}
-button{
-    outline: none;
-    cursor: pointer;
+.abcb:before{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
+.flex{display: flex;}
+.col{flex-direction: column;}
+.aic{align-items: center;}
+button{cursor: pointer;}
+input, button, textarea{outline: none;}
 @mixin anim($duration: 0.2s){
     transition: all $duration linear 0s;
 }
+
+.s18{font-size: 18px;}
+.s14{font-size: 14px;}
+.s15{font-size: 15px;}
+.s24{font-size: 24px;}
+.s30{font-size: 30px;}
+.s40{font-size: 40px;}
+
+.cfff{color: #fff;}
+

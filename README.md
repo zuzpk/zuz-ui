@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# zuz-ui
+React &amp; ReactNative UI KIT
+by #WatchMeCode
+
+Follow on Facebook
+https://www.facebook.com/watchmecode
+
+Subscribe to Youtube Channel
+https://www.youtube.com/channel/UCG9P9rJk6qP3mKgXR0E46hg
+>>>>>>> 4abb6e30027a442b9f367a1e2c5f386461f653fd
